@@ -39,7 +39,7 @@ ul{
 }
 
 .heading{
-    font-size: 25px;
+    font-size: 29px;
     color: #0E0E0E;
     margin: 20px 0;
 }
@@ -177,18 +177,18 @@ nav{
    border: none;
 }
 .btn-bg1:hover{
-   background: #fff;
-   color: #5490f5;
+   background: #1352bd;
+   color: #fff;
    border: none;
 }
 .btn-bg2{
-   background: #09a15c;
+   background: #006A50;
    color: white;
    border: none;
 }
 .btn-bg2:hover{
-   background: #fff;
-   color: #09a15c;
+   background: #09a15c;
+   color: white;
 }
 .btn-bg3{
    background: #ffc239;
@@ -196,8 +196,8 @@ nav{
    border: none;
 }
 .btn-bg3:hover{
-   background: #fff;
-   color: #ffc239; 
+   background: #c08600;
+   color: white; 
 }
 
 /* about section styles */
@@ -228,10 +228,206 @@ nav{
     padding: 30px;
 }
 
+.table h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .tableHead{
-    border: 1px solid #ddd;
+    border-top: 1px solid #c0c0c0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.tableHead button{
+    padding: 10px 41px;
+    font-weight: bold;
+    background: #c6e4d6;
+    border-radius: 5px;
+    border: 1px solid #0e0e0e;
+    cursor: pointer;
+}
+.tableHead button:hover{
+    background: #5490f5;
+    border: 1px solid #5490f5; 
+    color: white;
+}
+.tableHead div{
+    padding-left: 10px;
     padding: 20px;
+}
+
+.thBg{
+    background: #c6e4d6;
+}
+
+.rightSideWidth{
+    width: 20%;
+    border-right: 1px solid #c0c0c0;
+}
+
+.leftSideWidth{
+    width: 80%;
+    border-left: 1px solid #c0c0c0;
+}
+
+.leftSideWidthData{
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    width: 85%;
+}
+.rightSideWidthData{
+    width: 17%;
+    border-right: 1px solid #c0c0c0; 
+}
+
+.borderBottom{
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.thHover:hover{
+    background: #c0c0c0;
+}
+
+/* news section styles */
+.news{
+    margin: 80px 0;
+}
+.newsCard{
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+.newsCard>.img>img{
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.data h3 a{
+    font-size: 25px;
+    color: #3e3e3e;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.data h3 a:hover{
+    color: #006A50;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.data p{
+    margin-top: 15px;
+    color: #3e3e3e;
+}
+
+.data button{
+    margin-top: 20px;
+}
+
+/* donate style */
+.donate{
+    text-align: center;
+    margin: 50px;
+}
+.moneyCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.moneyCard{
+    background: white;
+    padding: 25px;
+    border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+.moneyCard:hover{
+    cursor: pointer;
+    background: #c6e4d6;
+}
+.moneyCard h3{
+    color: #3e3e3e;
+    font-size: 26px;
+}
+
+input[type="text"]{
+    width: 80%;
+    border: none; 
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    background: white;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}
+
+.moneyBg{
+    background: #c6e4d6;
+}
+
+/* newsletter style */
+.newsletter{
+    background: #c6e4d6;
+    padding: 50px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.subscribe{
+    display: flex;
+    margin: 25px auto 25px  auto;
+    height: 50px;
+    width: 70%;
+}
+
+.subscribe button{
+    width: 30%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+input[type="email"]{
+    width: 80%;
+    border: none; 
+    outline: none;
+    font-size: 18px; 
+    background: white;
+    padding: 25px 10px;
+    margin-bottom: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.newsletter{
+    margin: 80px 0;
+}
+
+/* footer styles */
+footer{
+    background: white;
+    text-align: center;
+    padding: 50px 200px;
+}
+
+footer hr{
+    margin: 20px 0;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.icons img{
+    cursor: pointer;
 }
